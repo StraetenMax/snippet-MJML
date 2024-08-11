@@ -1,0 +1,82 @@
+
+<mjml>
+  <mj-head>
+    <mj-title>Snippets Mjml</mj-title>
+    <mj-raw>
+      <meta name="color-scheme" content="light"/>
+      <meta name="supported-color-schemes" content="light"/>
+      <meta name="format-detection" content="telephone=no"/>
+      <meta name="format-detection" content="date=no"/>
+      <meta name="format-detection" content="address=no"/>
+      <meta name="format-detection" content="email=no"/>
+      
+    </mj-raw>
+    <mj-breakpoint width="480px"></mj-breakpoint>
+    <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap"/>
+    <mj-style>
+      .space{
+          padding: 30px !important;
+      }
+      .card {
+          border: 1px solid red !important;
+          border-radius: 6px !important;
+      }
+      .int{
+          padding: 20px !important;
+      }
+      .button{
+          background-color: #016ECC;
+          border: none;
+          border-radius: 24px;
+          color: #FFFFFF;
+          padding: 9px 20px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 13px;
+          font-weight:600;
+      }
+      @media only screen and (max-width:480px) {
+          .space {
+              padding: 10px !important;
+          }
+          .int{
+              padding:10px !important;
+          }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#eeeeee">      
+    <mj-section background-color="#DEDEDE" padding-top="0" padding-bottom="0" css-class="space">
+      <mj-column css-class="card">
+        <mj-text font-family="Inter, sans-serif" font-weight="500" font-size="22px" color="#000000" css-class="int"> 
+          <h1 style="font-weight:700;font-size:32px;margin-top:0;">What's next?</h1>
+          <p>$$SHOP-NAME will now fulfill the order as normal, and it should be coming any day now!</p>
+          <p style="margin-bottom:0;">You will also get an order confirmation email from the merchant with further details. Be sure to stay updated with the merchant for the latest information regarding your order.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-left="41px" padding-right="38px">
+      <mj-column css-class="date-padding" width="33.333333%" vertical-align="top">
+        <mj-text padding-left="21px" color="#032E61" font-weight="400" font-size="14px" line-height="16px">Date</mj-text>
+        <mj-button padding-left="21px" padding-top="14px" inner-padding="9px 20px 9px 20px" align="left" font-weight="600" font-size="13px" line-height="17px" border-radius="24px" color="#032E61" background-color="#FFFFFF">Get a kitten</mj-button>
+      </mj-column>
+      <mj-column width="66.666666%" vertical-align="top">
+        <mj-text css-class="time-padding" color="#032E61" font-weight="400" font-size="14px" line-height="16px">Time</mj-text>
+        <mj-text><a class="button" href="https://mjml.io" style="margin:5px">Get a kitten</a><a class="button" href="https://mjml.io" style="margin:5px">Get a kitten</a><a class="button" href="https://mjml.io" style="margin:5px">Get a kitten</a><a class="button" href="https://mjml.io" style="margin:5px">Get a kitten</a><a class="button" href="https://mjml.io" style="margin:5px">Get a kitten</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-wrapper background-color="#FFFFFF" border-radius="1px">
+      <mj-section padding="20px 20px">
+        <mj-column width="50%" background-color="#E8E9EB">
+          <mj-image src="https://info.helloalma.com/rs/894-SZP-051/images/6.png?version=0" alt="" width="350px" height="215px" padding="0"/>
+        </mj-column>
+        <mj-column width="50%" background-color="#E8E9EB" vertical-align="middle">
+          <mj-text font-size="14px" color="#353839" align="center" line-height="1.5"><b>Minim Yeniam</b></mj-text>
+          <mj-text line-height="1.5" align="center">Tuesday, July 20 from 10-11am ET | Proper code usage helps to streamline the insurance claims process and reduce potential denials and audits due to incorrect coding.</mj-text>
+          <mj-button background-color="green" align="center">Read More</mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
