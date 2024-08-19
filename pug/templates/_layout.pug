@@ -12,6 +12,7 @@ mjml
 
         mj-breakpoint(width='480px')
         mj-font(name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap")/
+        mj-font(name="Montserrat" href="https://fonts.googleapis.com/css?family=Montserrat")
         mj-style.
             .space{
                 padding: 30px !important;
@@ -34,6 +35,9 @@ mjml
                 display: inline-block;
                 font-size: 13px;
                 font-weight:600;
+            }
+            .separate table{
+                border-collapse: separate;
             }
             @media only screen and (max-width:480px) {
                 .space {
@@ -59,3 +63,6 @@ mjml
         //- card 02
         block card02
             include ../includes/_card02
+        //- icon
+        block icon
+            include ../includes/_icon

@@ -13,6 +13,7 @@
     </mj-raw>
     <mj-breakpoint width="480px"></mj-breakpoint>
     <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap"/>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css?family=Montserrat"></mj-font>
     <mj-style>
       .space{
           padding: 30px !important;
@@ -35,6 +36,9 @@
           display: inline-block;
           font-size: 13px;
           font-weight:600;
+      }
+      .separate table{
+          border-collapse: separate;
       }
       @media only screen and (max-width:480px) {
           .space {
@@ -97,6 +101,29 @@
         </mj-text>
         <mj-button align="left" background-color="#253657" text-transform="uppercase">From 225 			</mj-button>
       </mj-column>
+    </mj-section>
+    <!--Icon-->
+    <mj-section background-color="#ffffff" padding-top="30px" padding-bottom="30px" padding-left="5px" padding-right="5px" border-radius="0 0 16px 16px">
+      <mj-group>
+        <mj-column css-class="separate" width="50%" padding="5px" inner-border="1px solid #000000" inner-border-radius="20px" vertical-align="middle">
+          <mj-text color="#000000" line-height="22px" font-size="14px" font-family="Montserrat, Helvetica, Arial" padding-top="20px" padding-bottom="6px" align="center" font-weight="600" padding-left="1px" padding-right="1px">Hi</mj-text>
+          <mj-text color="#000000" line-height="22px" font-size="14px" font-family="Montserrat, Helvetica, Arial" padding-bottom="20px" align="center" padding-top="0" padding-left="1px" padding-right="1px">&lt;10%</mj-text>
+        </mj-column>
+        <mj-column css-class="separate" width="50%" padding="5px" inner-border="1px solid #000000" inner-border-radius="20px" vertical-align="middle">
+          <mj-text color="#000000" line-height="22px" font-size="14px" font-family="Montserrat, Helvetica, Arial" padding-top="20px" padding-bottom="6px" align="center" font-weight="600" padding-left="1px" padding-right="1px">Hi</mj-text>
+          <mj-text color="#000000" line-height="22px" font-size="14px" font-family="Montserrat, Helvetica, Arial" padding-bottom="20px" align="center" padding-top="0" padding-left="1px" padding-right="1px">&lt;10%</mj-text>
+        </mj-column>
+      </mj-group>
+      <mj-group>
+        <mj-column css-class="separate" width="50%" padding="5px" inner-border="1px solid #000000" inner-border-radius="20px" vertical-align="middle">
+          <mj-text color="#000000" line-height="22px" font-size="14px" font-family="Montserrat, Helvetica, Arial" padding-top="20px" padding-bottom="6px" align="center" font-weight="600" padding-left="1px" padding-right="1px">Hi</mj-text>
+          <mj-text color="#000000" line-height="22px" font-size="14px" font-family="Montserrat, Helvetica, Arial" padding-bottom="20px" align="center" padding-top="0" padding-left="1px" padding-right="1px">&lt;10%</mj-text>
+        </mj-column>
+        <mj-column css-class="separate" width="50%" padding="5px" inner-border="1px solid #000000" inner-border-radius="20px" vertical-align="middle">
+          <mj-text color="#000000" line-height="22px" font-size="14px" font-family="Montserrat, Helvetica, Arial" padding-top="20px" padding-bottom="6px" align="center" font-weight="600" padding-left="1px" padding-right="1px">Hi</mj-text>
+          <mj-text color="#000000" line-height="22px" font-size="14px" font-family="Montserrat, Helvetica, Arial" padding-bottom="20px" align="center" padding-top="0" padding-left="1px" padding-right="1px">&lt;10%</mj-text>
+        </mj-column>
+      </mj-group>
     </mj-section>
   </mj-body>
 </mjml>
