@@ -39,6 +39,11 @@ mjml
             .separate table{
                 border-collapse: separate;
             }
+            .border{
+                border-radius: 8px !important;
+                border: 1px solid #c21817;
+                background-color:#ffffff;
+            }
             @media only screen and (max-width:480px) {
                 .space {
                     padding: 10px !important;
@@ -66,3 +71,6 @@ mjml
         //- icon
         block icon
             include ../includes/_icon
+        //- border radius
+        block border radius
+            include ../includes/_borderadius

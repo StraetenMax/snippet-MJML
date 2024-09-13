@@ -40,6 +40,11 @@
       .separate table{
           border-collapse: separate;
       }
+      .border{
+          border-radius: 8px !important;
+          border: 1px solid #c21817;
+          background-color:#ffffff;
+      }
       @media only screen and (max-width:480px) {
           .space {
               padding: 10px !important;
@@ -124,6 +129,11 @@
           <mj-text color="#000000" line-height="22px" font-size="14px" font-family="Montserrat, Helvetica, Arial" padding-bottom="20px" align="center" padding-top="0" padding-left="1px" padding-right="1px">&lt;10%</mj-text>
         </mj-column>
       </mj-group>
+    </mj-section>
+    <mj-section padding="20px" background-color="#eeeeee">
+      <mj-column padding="20px" css-class="border">
+        <mj-text>Mettre en place un border-radius</mj-text>
+      </mj-column>
     </mj-section>
   </mj-body>
 </mjml>
